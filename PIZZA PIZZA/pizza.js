@@ -9,7 +9,7 @@
  		this.topping = toppings;
  };
 
- // Pizzu array
+ // Pizzu object array
  Pizzas = [];
  Pizzas.push(new Bake("Pepperoni", "l", ["Cheese", "Pepperoni"]));
  Pizzas.push(new Bake("Margarita", "s", ["Cheese"]));
@@ -22,10 +22,10 @@
  Pizzas.push(new Bake("Amigo", "l", ["Salsa", "Fajitas Chicken", "Jalapeno"]));
  Pizzas.push(new Bake("Cheesie", "s", ["Cheese", "Mozarella", "Ham"]));
 
- //Undirbý texta fyrir html
+ // Undirbý texta fyrir html
  var pizzaList = "";
  for(x in Pizzas){
- 	pizzaList += "<table style='width: 25%; min-width: 300px; float: left; border: 1px solid black; height: 100px;'>"
+ 	pizzaList += "<table class='box'>"
  	pizzaList += "<tr><th colspan='" + Pizzas[x].topping.length + 1 + "'>" + Pizzas[x].name + "</th></tr>";
  	pizzaList += "<tr><th>Size:</th><td align='center' colspan='" + Pizzas[x].topping.length + "'>" + Pizzas[x].size + "</td></tr>";
  	pizzaList += "<tr><th>Topping:</th>";
