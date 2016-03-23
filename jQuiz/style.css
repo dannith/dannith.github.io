@@ -1,0 +1,73 @@
+#info {
+	margin-top: 5rem;
+	display: inline-block;
+	float:left;
+}
+#ui {
+	margin-top: 5rem;
+	display: inline-block;
+	float:right;
+}
+
+hr {
+	margin-top: 0;
+}
+
+#quizTitle{
+	margin-top: 2rem;
+	text-align: center;
+}
+
+#qBox {	
+	display: table;
+	width: 100%;
+	text-align: center;
+	height: 20rem;
+}
+
+#qBox span{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 2.5rem;
+	color: orange;
+}
+
+#aBox {
+	width: 100%;
+	height: 20rem;
+}
+
+.aOption {
+	width:100%;
+	height: 4.5rem;
+	background-color: rgb(196, 198, 249);
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	display: table;
+	float: left;
+	border-radius: 0.5rem;
+}
+
+.aOption span{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+
+.retry {
+	width:100%;
+	height: 4.5rem;
+	color: white;
+	background-color: magenta;
+	display: table;
+	float: left;
+	border-radius: 0.5rem;
+}
+
+.retry span{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
