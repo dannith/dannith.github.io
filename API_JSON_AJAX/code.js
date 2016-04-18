@@ -46,7 +46,7 @@ concerts = {
 			cImage.setAttribute("src", object.imageSource);
 
 
-			if (cImage.width == 0 || cImage.height == 0){	//CHEAPFIX ???
+			if (cImage.naturalWidth == 0){	//CHEAPFIX ???
 				cImage.setAttribute("src", "error.png");
 			}
 
